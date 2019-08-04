@@ -71,3 +71,21 @@ body {
     text-decoration: none;
     font-weight: normal;
 }
+
+
+@media screen and (max-width: 640px) {
+
+    .person {
+        flex-direction: column;
+    }
+
+    .person__photo {
+        margin: 0 auto;
+        width: 180px;
+        height: 180px;
+    }
+
+    .person__header {
+        margin-top: 30px;
+    }
+}
